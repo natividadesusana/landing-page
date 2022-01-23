@@ -9,7 +9,7 @@
 
 body {
     font-size: 100%;
-    background: -webkit-linear-gradient(white, #38495a);
+    background: linear-gradient(68.15deg, #6b4a2a 16.62%, #8e7252 85.61%);
 }
 
 .cabecalho {
@@ -17,7 +17,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 24px;
+    padding: 15px;
 }
 
 .cabecalho-imagem {
@@ -37,14 +37,14 @@ body {
 
 .cabecalho-menu-item {
     font-family: 'Montserrat Alternates', sans-serif;
-    color: #130e0b;
+    color: #ffffff;
     font-weight: 400;
     font-size: 18px;
 }
 
 .conteudo {
     margin-bottom: 48px;
-    border-top: 0.4px solid #110f0e;
+    border-top: 0.4px solid #ffffff;
 }
 
 .conteudo-principal {
@@ -64,27 +64,32 @@ body {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 600;
     font-size: 40px;
-    color: #130e0b;
+    color:#ffffff;
 }
 
 .conteudo-principal-escrito-subtitulo {
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #130e0b;
+    color: #ffffff;
 }
 
 .conteudo-principal-escrito-botao {
-    background-color: #ECD6C4;
+    background-color: #fafafa;
     width: 180px;
     height: 60px;
     border: none;
-    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    box-shadow: 4px 5px 4px rgba(250, 248, 248, 0.25);
     border-radius: 20px;
     font-family: 'Montserrat Alternates', sans-serif;
     font-weight: 400;
     font-size: 24px;
     color: #130e0b;
+}
+
+.conteudo-principal-escrito-botao:hover {
+    background-color: rgba(106, 216, 231, 0.53);
+    cursor: pointer;
 }
 
 .conteudo-principal-imagem {
@@ -100,5 +105,30 @@ body {
 }
 
 .conteudo-secundario-titulo {
+    border-top: 0.4px solid #ffffff;
+    padding-top: 48px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #ffffff;
+    margin-bottom: 16px;
+}
+
+.conteudo-secundario-paragrafo {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.rodape {
+    padding: 20px;
+    border-top: 0.4px solid #ffffff;
+}
+
+.rodape-imagem {
+    height: 70px;
+    display: block;
+    margin: 0 auto;
     
 }
