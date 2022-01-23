@@ -1,9 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&family=Montserrat+Alternates:wght@300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
 body {
-    margin: 50px;
+    font-size: 100%;
+    background: -webkit-linear-gradient(white, #38495a);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-imagem {
+    height: 72px;
 }
 
 #img {    
     height: 100px;
     height: 100px;
     border-radius: 100%;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #130e0b;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #110f0e;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-principal-escrito-titulo {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    color: #130e0b;
+}
+
+.conteudo-principal-escrito-subtitulo {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #130e0b;
+}
+
+.conteudo-principal-escrito-botao {
+    background-color: #ECD6C4;
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #130e0b;
+}
+
+.conteudo-principal-imagem {
+    height: 430px;
+}
+
+.conteudo-secundario {
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.conteudo-secundario-titulo {
+    
 }
