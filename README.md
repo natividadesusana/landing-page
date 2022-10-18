@@ -1,2 +1,2 @@
 # LandingPage
-Praticando Primeira Landing Page com HTML e CSS.
+Landing Page with HTML and CSS ~
